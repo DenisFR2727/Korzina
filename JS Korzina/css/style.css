@@ -1,0 +1,52 @@
+.tovar1{
+    display: flex;
+    margin: 0 auto;
+    width: 970px;
+    justify-content: space-around;
+    
+
+}
+.tovar1 div img{
+    height: 250px;
+}
+.KorzinaSub{
+    
+    display: none;
+    height: 400px;
+    border: 1px solid green;
+    overflow-y: scroll;
+    background-color: cornflowerblue;
+}
+
+.G1{
+    color: green;
+}
+.G1 img{
+    width: 200px;
+}
+
+.TTT input{
+    display: block;
+}
+.KorzinaSub{
+    justify-content: space-between;
+}
+#p1,#p2,#p3,#p4{
+    margin-top: 50px;
+
+}
+.knop{
+    margin-top:  30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: crimson;
+}
+#p1,#p2,#p3,#p4{
+    background-color: chartreuse;
+}
+.korzinclouse{
+    background-color: cyan;
+}
+.b1,.b2{
+    background-color: rgba(199, 184, 120, 0.733);
+}
