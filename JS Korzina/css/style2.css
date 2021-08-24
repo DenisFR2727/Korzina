@@ -1,0 +1,29 @@
+.card img{
+    height: 100px;
+    width: 200px;
+    
+}
+.b1,.b2,.b3{
+    display: none;
+}
+.b4{
+    margin-left: 10px;
+}
+
+.b4::after{
+    content: "шт";
+    color: red;
+    margin-left: 10px;
+   
+} 
+.card{
+    width: 500px;
+    margin: 0 auto;
+    border:1px solid rgb(225, 0, 255);
+}
+.dannie{
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 20px;
+    border:1px solid orange;
+}
