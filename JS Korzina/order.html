@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style2.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="div12">Спасибо за ваш заказ</div>
+    <div class="card"></div>
+    <div class="dannie">
+        Спасибо за ваш заказ! Уважаемый 
+<div id="t1"></div>
+<div id="t2"></div>
+<div id="t3"></div>
+<div id="t4"></div>
+</div>
+    <script>
+ console.log(
+localStorage.getItem('tel'),
+localStorage.getItem('te2'),
+localStorage.getItem('te3'),
+localStorage.getItem('te4'))
+document.getElementById('t1').innerHTML = localStorage.getItem('tel');
+document.getElementById('t2').innerHTML = localStorage.getItem('te2');
+document.getElementById('t3').innerHTML = localStorage.getItem('te3');
+document.getElementById('t4').innerHTML = localStorage.getItem('te4');
+// -------------------------------------------------------------------------
+document.getElementsByClassName('card')[0].innerHTML = localStorage.getItem('Tovar');
+
+
+
+
+
+    </script>
+</body>
+</html>
